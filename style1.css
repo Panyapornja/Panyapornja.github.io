@@ -67,13 +67,15 @@ nav {
     background-position: center;
     background-size: cover;
     padding: 12rem 11.5rem;
-    & .banner-Wrapper{
+
+    & .banner-Wrapper {
         display: flex;
         flex-wrap: wrap;
         column-gap: 30px;
         row-gap: 30px;
         justify-content: center;
-        & .item1{
+
+        & .item1 {
             height: 400px;
             width: 200px;
             border-radius: 20px;
@@ -85,7 +87,8 @@ nav {
             align-items: center;
             flex-direction: column;
             row-gap: 30px;
-            & .iteml-text{
+
+            & .iteml-text {
                 margin-top: 10px;
                 width: 120px;
                 height: 42px;
@@ -93,6 +96,7 @@ nav {
                 align-items: center;
                 display: flex;
             }
+
             & .facebook {
                 & .icon-facebook {
                     width: 50px;
@@ -101,8 +105,8 @@ nav {
                     background-position: center;
                     background-size: cover;
                     border-radius: 15px;
-                    
-                    
+
+
                 }
             }
 
@@ -114,7 +118,7 @@ nav {
                     background-position: center;
                     background-size: cover;
                     border-radius: 15px;
-                    
+
                 }
             }
 
@@ -126,7 +130,7 @@ nav {
                     background-position: center;
                     background-size: cover;
                     border-radius: 15px;
-                    
+
                 }
             }
 
@@ -138,12 +142,13 @@ nav {
                     background-position: center;
                     background-size: cover;
                     border-radius: 15px;
-                    
+
                 }
             }
         }
-        & .item2{
-            height:400px;
+
+        & .item2 {
+            height: 400px;
             width: 200px;
             background-color: rgb(221, 140, 33);
             border-radius: 20px;
@@ -153,7 +158,8 @@ nav {
             font-family: monospace;
             font-size: 0.8rem;
             color: rgb(255, 255, 255);
-            & .item2-1{
+
+            & .item2-1 {
                 margin-top: 10px;
                 width: 180px;
                 height: 42px;
@@ -162,7 +168,8 @@ nav {
                 align-items: center;
                 display: flex;
             }
-            & .item2-2{
+
+            & .item2-2 {
                 background-image: url("img/pic4.jpg");
                 height: 150px;
                 width: 140px;
@@ -171,76 +178,87 @@ nav {
                 background-position: center;
                 margin-top: 30px;
             }
-            & .item2-3{
+
+            & .item2-3 {
                 margin-top: 10px;
                 justify-content: center;
                 align-items: center;
                 display: flex;
                 font-size: 1.5rem;
+
                 & a {
                     color: #ffffff;
                 }
             }
 
         }
-        & .item3{
+
+        & .item3 {
             height: 400px;
             width: 200px;
-            background-color: rgb(240, 198, 13);
             border-radius: 20px;
-            & .item3-text{
-                font-family: monospace;
-                font-size: 0.95rem;
-                margin-top: 20px;
+            background-color: #d05d1a;
+            color: rgb(255, 255, 255);
+            font-family: monospace;
+            font-size: 0.7rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 50px;
+            & .iteml-text {
+                margin-top: 10px;
                 width: 120px;
                 height: 42px;
-                margin-left: 45px;
                 justify-content: center;
                 align-items: center;
-                color: #ffffff;
-                
-                
+                display: flex;
+            } 
+            & .icon1 {
+                & .icon1-1  {
+                    width: 50px;
+                    height: 50px;
+                    background-image: url("https://i.pinimg.com/564x/1d/26/27/1d26278a7f0c904391c0b858e870c64a.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 15px;
 
-                    & .Favorite-thing {
-                        & .icon-game {
-                            width: 40px;
-                            height: 40px;
-                            background-size: cover;
-                            border-radius: 5px;
-                            padding: 1rem 0rem;
-                            margin: 2rem 3rem;
-                            background-image: url("https://i.pinimg.com/564x/1d/26/27/1d26278a7f0c904391c0b858e870c64a.jpg");
-                        }
-            
-                        & .icon-photo {
-                            width: 40px;
-                            height: 40px;
-                            background-size: cover;
-                            border-radius: 5px;
-                            margin: -0.5rem 3rem;
-                            background-image: url("https://i.pinimg.com/564x/2e/6c/3f/2e6c3f56d41d284b0c477ebdce6997df.jpg");
-                        }
-            
-                        & .icon-pets {
-                            width: 40px;
-                            height: 40px;
-                            background-size: cover;
-                            border-radius: 5px;
-                            margin: 2.5rem 3rem;
-                            background-image: url("https://i.pinimg.com/564x/1c/37/0b/1c370b63856f0cf0e53f0f552565ec6b.jpg")
-                        }
-                    }
+
                 }
             }
 
-        }
-        & .item4{
+            & .icon2 {
+                & .icon2-1  {
+                    width: 50px;
+                    height: 50px;
+                    background-image: url("https://i.pinimg.com/564x/2e/6c/3f/2e6c3f56d41d284b0c477ebdce6997df.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 15px;
+
+                }
+            }
+
+            & .icon3 {
+                & .icon3-1  {
+                    width: 50px;
+                    height: 50px;
+                    background-image: url("https://i.pinimg.com/564x/1c/37/0b/1c370b63856f0cf0e53f0f552565ec6b.jpg");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 15px;
+
+                }
+            }
+        } 
+
+          & .item4 {
             height: 400px;
             width: 200px;
             background-color: rgb(177, 46, 79);
             border-radius: 20px;
         }
     }
+}
 
 
 
@@ -253,6 +271,3 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
-
-
