@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(131, 15, 15);
+    height: 70px;
+    align-items: center;
+
+    & .logo1 {
+        & .icon-logo1 {
+            width: 60px;
+            height: 60px;
+            background-image: url("#");
+            background-size: cover
+        }
+    }
+
+    & .logo2 {
+        & .icon-logo2 {
+            width: 60px;
+            height: 60px;
+            background-image: url("#");
+            background-size: cover
+        }
+    }
+
+    & .name {
+
+        & h1 {
+            color: rgb(255, 255, 255);
+            font-size: 2rem;
+            font-family: monospace;
+            margin: 3 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        & h6 {
+            color: #ffffff;
+            font-family: monospace;
+            font-size: 0.85rem;
+            margin: 3 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+}
+
+.banner {
+    height: auto;
+    width: 100%;
+    background-image: url("https://www.ghibli.jp/gallery/chihiro007.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 12rem 11.5rem;
+    & .banner-Wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 30px;
+        justify-content: center;
+        & .banner3-item1 {
+            background-color: #ffffff;
+            height: 350px;
+            width: 200px;
+            padding: 1rem 4rem;
+            border-radius: 20px;
+
+            & .pic1 {
+                width: 190px;
+                height: 250px;
+                background-size: cover;
+                border-radius: 15px;
+                padding: 0rem 0rem;
+                margin: 2.5rem -3.7rem;
+                background-position: center;
+                background-image: url("/img/pic1.jpg")
+            }
+        }
+
+        & .banner3-item2 {
+            background-color: #ffffff;
+            height: 350px;
+            width: 200px;
+            border-radius: 20px;
+            padding: 1rem 4rem;
+
+            & .pic2 {
+                width: 180px;
+                height: 250px;
+                background-size: cover;
+                border-radius: 15px;
+                padding: 0rem 0rem;
+                margin: 2.5rem -3.4rem;
+                background-position: center;
+                background-image: url("/img/pic2.jpg")
+            }
+
+        }
+
+        & .banner3-item3 {
+            background-color: #ffffff;
+            height: 350px;
+            width: 200px;
+            border-radius: 20px;
+            padding: 1rem 1.6rem;
+
+            & .pic3 {
+                width: 180px;
+                height: 250px;
+                background-size: cover;
+                border-radius: 15px;
+                padding: 0rem 0rem;
+                margin: 2.5rem -1rem;
+                background-position: center;
+                background-image: url("/img/pic3.jpg")
+            }
+        }
+
+        & .banner3-item4 {
+            background-color: #ffffff;
+            height: 350px;
+            width: 200px;
+            border-radius: 20px;
+            padding: 1rem 4rem;
+
+            & .pic4 {
+                width: 180px;
+                height: 250px;
+                background-size: cover;
+                border-radius: 15px;
+                padding: 0rem 0rem;
+                margin: 2.5rem -3.4rem;
+                background-position: center;
+                background-image: url("/img/pic44.jpg")
+            }
+        }
+
+        
+    }
+}
+
+
+.motto {
+    background-color: darkred;
+    height: 50px;
+    color: #ffffff;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
