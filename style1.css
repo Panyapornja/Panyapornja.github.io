@@ -97,7 +97,7 @@ nav {
                 background-color: #7a0808;
                 color: rgb(255, 255, 255);
                 font-family: monospace;
-                font-size: 1rem;
+                font-size: 1.1rem;
                 display: flex;
                 align-items: center;
                 flex-direction: column;
@@ -114,8 +114,8 @@ nav {
 
                 & .facebook {
                     & .icon-facebook {
-                        width: 50px;
-                        height: 50px;
+                        width: 70px;
+                        height: 70px;
                         background-image: url("https://i.pinimg.com/564x/db/19/33/db19332a23a44f772c5a1855a8aabf70.jpg");
                         background-position: center;
                         background-size: cover;
@@ -127,8 +127,8 @@ nav {
 
                 & .Instagram {
                     & .icon-instagram {
-                        width: 50px;
-                        height: 50px;
+                        width: 70px;
+                        height: 70px;
                         background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png");
                         background-position: center;
                         background-size: cover;
@@ -139,8 +139,8 @@ nav {
 
                 & .Tiktok {
                     & .icon-tiktok {
-                        width: 50px;
-                        height: 50px;
+                        width: 70px;
+                        height: 70px;
                         background-image: url("https://seeklogo.com/images/T/tiktok-app-icon-logo-0F5AD7AE01-seeklogo.com.png");
                         background-position: center;
                         background-size: cover;
@@ -151,8 +151,8 @@ nav {
 
                 & .Discord {
                     & .icon-discord {
-                        width: 50px;
-                        height: 50px;
+                        width: 70px;
+                        height: 70px;
                         background-image: url("data:image/png;base64,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");
                         background-position: center;
                         background-size: cover;
@@ -171,7 +171,7 @@ nav {
                 flex-direction: column;
                 align-items: center;
                 font-family: monospace;
-                font-size: 0.8rem;
+                font-size: 0.9rem;
                 color: rgb(255, 255, 255);
 
                 & .item2-1 {
@@ -186,8 +186,8 @@ nav {
 
                 & .item2-2 {
                     background-image: url("img/pic4.jpg");
-                    height: 150px;
-                    width: 140px;
+                    height: 250px;
+                    width: 230px;
                     border-radius: 10px;
                     background-size: cover;
                     background-position: center;
@@ -228,7 +228,7 @@ nav {
             background-color: #d05d1a;
             color: rgb(255, 255, 255);
             font-family: monospace;
-            font-size: 0.7rem;
+            font-size: 1rem;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -245,8 +245,8 @@ nav {
 
             & .icon1 {
                 & .icon1-1 {
-                    width: 50px;
-                    height: 50px;
+                    width: 70px;
+                    height: 70px;
                     background-image: url("https://i.pinimg.com/564x/1d/26/27/1d26278a7f0c904391c0b858e870c64a.jpg");
                     background-position: center;
                     background-size: cover;
@@ -258,8 +258,8 @@ nav {
 
             & .icon2 {
                 & .icon2-1 {
-                    width: 50px;
-                    height: 50px;
+                    width: 70px;
+                    height: 70px;
                     background-image: url("https://i.pinimg.com/564x/2e/6c/3f/2e6c3f56d41d284b0c477ebdce6997df.jpg");
                     background-position: center;
                     background-size: cover;
@@ -270,8 +270,8 @@ nav {
 
             & .icon3 {
                 & .icon3-1 {
-                    width: 50px;
-                    height: 50px;
+                    width: 70px;
+                    height: 70px;
                     background-image: url("https://i.pinimg.com/564x/1c/37/0b/1c370b63856f0cf0e53f0f552565ec6b.jpg");
                     background-position: center;
                     background-size: cover;
