@@ -91,8 +91,8 @@ nav {
             margin-top: 10px;
 
             & .item1 {
-                height: 400px;
-                width: 300px;
+                height: 500px;
+                width: 400px;
                 border-radius: 20px;
                 background-color: #7a0808;
                 color: rgb(255, 255, 255);
@@ -163,8 +163,8 @@ nav {
             }
 
             & .item2 {
-                height: 400px;
-                width: 300px;
+                height: 500px;
+                width: 400px;
                 background-color: rgb(221, 140, 33);
                 border-radius: 20px;
                 display: flex;
@@ -222,8 +222,8 @@ nav {
         }
 
         & .item3 {
-            height: 400px;
-            width: 300px;
+            height: 500px;
+            width: 400px;
             border-radius: 20px;
             background-color: #d05d1a;
             color: rgb(255, 255, 255);
@@ -282,8 +282,8 @@ nav {
         }
 
         & .item4 {
-            height: 400px;
-            width: 300px;
+            height: 500px;
+            width: 400px;
             background-color: rgb(177, 46, 79);
             border-radius: 20px;
         }
