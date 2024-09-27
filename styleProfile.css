@@ -67,165 +67,198 @@ nav {
     background-position: center;
     background-size: cover;
     padding: 12rem 11.5rem;
-    & .banner-Wrapper{
+
+    & .banner-Wrapper {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         column-gap: 30px;
         row-gap: 30px;
         justify-content: center;
-        & .window1{
-            height: 500px;
-            width: 430px;
-            background-color: #ffffffb2;
-            border-radius: 20px;
-            & .Education{
-                font-family: monospace;
-                color: black;
-                font-size: 1.5rem;
-                margin-top: 20px;
-                justify-content: center;
-                align-items: center;
-                display: flex;
-                font-size: 1.5rem
-            }
-            & .BKW{
-                display: flex;
-                flex-direction: row;
-                column-gap: 9px;
-                margin-top: 16px;
-                justify-content: center;
-                align-items: center;
-                & .Pic-BKW1{
-                    background-image: url("img/BKW1.jpg");
-                    height: 100px;
-                    width: 190px;
-                    border-radius: 10px;
-                    background-size: cover;
-                    background-position: center;
-                    margin-top: 10px;
-                    margin-left: 15px;  
-                }
-                & .Pic-BKW2{
-                    font-family: monospace;
-                    font-size: 0.8rem;
-                    color: rgb(15, 12, 12);
-                    
+        align-content: center;
+        height: auto;
+        width: 100%;
 
-                }
-            }
-            & .Thaiaus{
-                display: flex;
-                flex-direction: row;
-                column-gap: 9px;
-                margin-top: 20px;
-                justify-content: center;
-                align-items: center;
-                & .Pic-Thaiaus1{
-                    background-image: url("img/THAI.png");
-                    height: 100px;
-                    width: 220px;
-                    border-radius: 10px;
-                    background-size: cover;
-                    background-position: center;
-                    margin-top: 10px;
-                    margin-left: 15px; 
-                }
-                & .Pic-Thaiaus2{
-                    font-family: monospace;
-                    font-size: 0.8rem;
-                    color: rgb(15, 12, 12); 
-                }
-            }
-            & .KMUTNB{
-                display: flex;
-                flex-direction: row;
-                column-gap: 11px;
-                margin-top: 20px;
-                justify-content: center;
-                align-items: center;
-                & .Pic-KMUTNB1{
-                    background-image: url("img/KMUTNB1.jpg");
-                    height: 100px;
-                    width: 280px;
-                    border-radius: 10px;
-                    background-size: cover;
-                    background-position: center;
-                    margin-top: 10px;
-                    margin-left: 15px; 
-                    padding: 1rem -0.5rem; 
-                }
-                & .Pic-KMUTNB2{
-                    font-family: monospace;
-                    font-size: 0.75rem;
-                    color: rgb(15, 12, 12); 
-                }
-
-            }
-            
-        }
-        & .window2{
-            height: 500px;
-            width: 430px;
-            background-color: #ffffff77;
-            border-radius: 20px;
+        & .window {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            
-            column-gap: 10px;
-            row-gap: 20px;
-            & .Work-experience{
-                font-family: monospace;
-                font-size: 1.5rem;
-                margin-top: 20px;
-                
-            }
-            & .Gulf{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                & .Pic-gulf{
-                    background-image: url("img/gulf.png");
-                    height: 90px;
-                    width: 130px;
-                    border-radius: 10px;
-                    background-size: cover;
-                    background-position: center;
-                    margin-top: -10px;
-                    margin-left: -40px; 
-                }
-                & .text-gulf{
+            flex-wrap: wrap;
+            column-gap: 30px;
+            row-gap: 30px;
+            justify-content: center;
+            margin-top: 20px;
+            height: auto;
+            width: 100%;
+            margin-top: 10px;
+
+            & .window1 {
+                height: 500px;
+                width: 430px;
+                background-color: #ffffffb2;
+                border-radius: 20px;
+
+                & .Education {
                     font-family: monospace;
-                    font-size: 1.3rem;
+                    color: black;
+                    font-size: 1.5rem;
                     margin-top: 20px;
-                    margin: 20px 20px;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    font-size: 1.5rem
                 }
+
+                & .BKW {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 9px;
+                    margin-top: 16px;
+                    justify-content: center;
+                    align-items: center;
+
+                    & .Pic-BKW1 {
+                        background-image: url("img/BKW1.jpg");
+                        height: 100px;
+                        width: 190px;
+                        border-radius: 10px;
+                        background-size: cover;
+                        background-position: center;
+                        margin-top: 10px;
+                        margin-left: 15px;
+                    }
+
+                    & .Pic-BKW2 {
+                        font-family: monospace;
+                        font-size: 0.8rem;
+                        color: rgb(15, 12, 12);
+
+
+                    }
+                }
+
+                & .Thaiaus {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 9px;
+                    margin-top: 20px;
+                    justify-content: center;
+                    align-items: center;
+
+                    & .Pic-Thaiaus1 {
+                        background-image: url("img/THAI.png");
+                        height: 100px;
+                        width: 220px;
+                        border-radius: 10px;
+                        background-size: cover;
+                        background-position: center;
+                        margin-top: 10px;
+                        margin-left: 15px;
+                    }
+
+                    & .Pic-Thaiaus2 {
+                        font-family: monospace;
+                        font-size: 0.8rem;
+                        color: rgb(15, 12, 12);
+                    }
+                }
+
+                & .KMUTNB {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 11px;
+                    margin-top: 20px;
+                    justify-content: center;
+                    align-items: center;
+
+                    & .Pic-KMUTNB1 {
+                        background-image: url("img/KMUTNB1.jpg");
+                        height: 100px;
+                        width: 280px;
+                        border-radius: 10px;
+                        background-size: cover;
+                        background-position: center;
+                        margin-top: 10px;
+                        margin-left: 15px;
+                        padding: 1rem -0.5rem;
+                    }
+
+                    & .Pic-KMUTNB2 {
+                        font-family: monospace;
+                        font-size: 0.75rem;
+                        color: rgb(15, 12, 12);
+                    }
+
+                }
+
             }
 
-            & .workex{
+            & .window2 {
+                height: 500px;
+                width: 430px;
+                background-color: #ffffff77;
+                border-radius: 20px;
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 align-items: center;
-                justify-content: center;
-                column-gap: 30px;
-                margin-left: 0px;
-                
-                & .Pic-gulf1{
-                    background-image: url("img/gulf2.jpg");
-                    height: 150px;
-                    width: 150px;
-                    border-radius: 10px;
-                    background-size: cover;
-                    background-position: center;
-                     
+
+                column-gap: 10px;
+                row-gap: 20px;
+
+                & .Work-experience {
+                    font-family: monospace;
+                    font-size: 1.5rem;
+                    margin-top: 20px;
+
                 }
-                & .Pic-gulf2{
-                    background-image: url("img/gulf3.jpg");
-                    height: 150px;
-                    width: 150px;
-                    border-radius: 10px;
-                    background-size: cover;
-                    background-position: center;
+
+                & .Gulf {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    & .Pic-gulf {
+                        background-image: url("img/gulf.png");
+                        height: 90px;
+                        width: 130px;
+                        border-radius: 10px;
+                        background-size: cover;
+                        background-position: center;
+                        margin-top: -10px;
+                        margin-left: -40px;
+                    }
+
+                    & .text-gulf {
+                        font-family: monospace;
+                        font-size: 1.3rem;
+                        margin-top: 20px;
+                        margin: 20px 20px;
+                    }
+                }
+
+                & .workex {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    column-gap: 30px;
+                    margin-left: 0px;
+
+                    & .Pic-gulf1 {
+                        background-image: url("img/gulf2.jpg");
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 10px;
+                        background-size: cover;
+                        background-position: center;
+
+                    }
+
+                    & .Pic-gulf2 {
+                        background-image: url("img/gulf3.jpg");
+                        height: 150px;
+                        width: 150px;
+                        border-radius: 10px;
+                        background-size: cover;
+                        background-position: center;
+                    }
                 }
             }
         }
@@ -242,6 +275,3 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
-
-
