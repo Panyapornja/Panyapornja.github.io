@@ -15,7 +15,7 @@ nav {
         & .icon-logo1 {
             width: 60px;
             height: 60px;
-            background-image: url("https://i.pinimg.com/564x/3a/a9/53/3aa95340246abb1d45b34efd259ef48b.jpg");
+            background-image: url("img/sun1.png");
             background-size: cover
         }
     }
@@ -24,7 +24,7 @@ nav {
         & .icon-logo2 {
             width: 60px;
             height: 60px;
-            background-image: url("https://i.pinimg.com/564x/d3/54/03/d354038a565fefd43ef9083d97fae9b5.jpg");
+            background-image: url("img/sun2.png");
             background-size: cover
         }
     }
