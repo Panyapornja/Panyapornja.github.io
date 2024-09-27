@@ -27,9 +27,6 @@
         <div class="banner-Wrapper">
             <div class="window">
                 <div class="item2">
-                    <div class="item2-1">
-                        <h3> Personal information</h3>
-                    </div>
                     <div class="item2-2"></div>
                     <div class="item2-3"><a href="Profile.html"><span class="hover-text">Profile</span></a></div>
                     <div class="item2-4"><a href="Workexperian.html"><span class="hover-text">Work Experience</span></a>
@@ -58,7 +55,7 @@
 
                 <div class="item3">
                     <div class="iteml-text">
-                        <h3>My Favorite </h3>
+                        <h3>Favorite </h3>
                     </div>
                     <div class="icon1"><a href="favoritegame.html">
                             <div class="icon1-1"></div>
@@ -78,15 +75,17 @@
                     <div class="icon1">
                         <a href="API.html"><span class="hover-text">click</span></a>
                     </div>
-                    <div class="id">
-                        <input class="box" type="text" id="studentName" required placeholder="Enter studentName" >
-                    </div>
-                    <div class="name">
-                        <input class="box" type="text" id="studentId" required placeholder="Enter studentId">
-                    </div>
-                    <div class="sup">
-                        <input class="api" type="submit">
-                    </div>
+                    <form onsubmit="event.preventDefault(); submitData();">
+                        <div class="id">
+                            <input class="box" type="text" id="studentName" required placeholder="Enter studentName">
+                        </div>
+                        <div class="name">
+                            <input class="box" type="text" id="studentId" required placeholder="Enter studentId">
+                        </div>
+                        <div class="sup">
+                            <input class="api" type="submit">
+                        </div>
+                    </form>
                 </div>
             </div>
     </section>
@@ -102,17 +101,12 @@
 
     <script>
         async function submitData() {
-            // รับข้อมูลจากฟอร์ม
             const studentId = document.getElementById("studentId").value;
             const studentName = document.getElementById("studentName").value;
-    
-            // สร้างข้อมูลในรูปแบบ JSON
             const data = {
                 id: studentId,
                 name: studentName
             };
-    
-            // ส่งข้อมูลไปยัง API โดยใช้ fetch
             try {
                 const response = await fetch("https://206.189.146.138/api/students", {
                     method: "POST",
@@ -121,7 +115,7 @@
                     },
                     body: JSON.stringify(data)
                 });
-    
+
                 if (response.ok) {
                     alert("ส่งสำเร็จจ้าเย้ๆ");
                 } else {
@@ -134,4 +128,5 @@
         }
     </script>
 </body>
+
 </html>

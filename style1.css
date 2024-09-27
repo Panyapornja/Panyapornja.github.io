@@ -97,7 +97,7 @@ nav {
                 background-color: #7a0808;
                 color: rgb(255, 255, 255);
                 font-family: monospace;
-                font-size: 1.1rem;
+                font-size: 1.5rem;
                 display: flex;
                 align-items: center;
                 flex-direction: column;
@@ -191,7 +191,7 @@ nav {
                     border-radius: 10px;
                     background-size: cover;
                     background-position: center;
-                    margin-top: 30px;
+                    margin-top: 70px;
                 }
 
                 & .item2-3 {
@@ -226,9 +226,7 @@ nav {
                     }
                 }
             }
-
         }
-
         & .item3 {
             height: 500px;
             width: 400px;
@@ -236,7 +234,7 @@ nav {
             background-color: #d05d1a;
             color: rgb(255, 255, 255);
             font-family: monospace;
-            font-size: 1rem;
+            font-size: 1.5rem;
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -324,7 +322,7 @@ nav {
             }
 
             & .id {
-                margin-top: 50px;
+                margin-top: 90px;
 
                 & .box {
                     height: 40px;
@@ -337,7 +335,7 @@ nav {
             }
 
             & .name {
-                margin-top: 10px;
+                margin-top: 30px;
 
                 & .box {
                     height: 40px;
@@ -360,6 +358,7 @@ nav {
                     font-size: 1.5rem;
                     border-radius: 5px;
                     font-family: monospace;
+                    margin-left: 95px;
                 }
             }
 

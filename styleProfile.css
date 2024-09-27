@@ -90,15 +90,20 @@ nav {
 
             & .window1 {
                 height: 600px;
-                width: 430px;
+                width: 530px;
                 background-color: #ffffffb2;
                 border-radius: 20px;
+                padding: 60px;
+                display: flex;
+                flex-direction: column;
+                
+                
 
                 & .Education {
-                    font-family: monospace;
+                    font-family: cursive;
                     color: black;
                     font-size: 1.5rem;
-                    margin-top: 20px;
+                    
                     justify-content: center;
                     align-items: center;
                     display: flex;
@@ -112,20 +117,20 @@ nav {
                     margin-top: 16px;
                     justify-content: center;
                     align-items: center;
+                    margin-top: 60px;
 
                     & .Pic-BKW1 {
                         background-image: url("img/BKW1.jpg");
-                        height: 100px;
-                        width: 190px;
+                        height: 90px;
+                        width: 150px;
                         border-radius: 10px;
                         background-size: cover;
                         background-position: center;
-                        margin-top: 10px;
-                        margin-left: 15px;
+                        
                     }
 
                     & .Pic-BKW2 {
-                        font-family: monospace;
+                        font-family: cursive;
                         font-size: 0.8rem;
                         color: rgb(15, 12, 12);
 
@@ -143,17 +148,15 @@ nav {
 
                     & .Pic-Thaiaus1 {
                         background-image: url("img/THAI.png");
-                        height: 100px;
-                        width: 220px;
+                        height: 90px;
+                        width: 150px;
                         border-radius: 10px;
-                        background-size: cover;
                         background-position: center;
-                        margin-top: 10px;
-                        margin-left: 15px;
+                        background-size: cover; 
                     }
 
                     & .Pic-Thaiaus2 {
-                        font-family: monospace;
+                        font-family: cursive;
                         font-size: 0.8rem;
                         color: rgb(15, 12, 12);
                     }
@@ -166,21 +169,20 @@ nav {
                     margin-top: 20px;
                     justify-content: center;
                     align-items: center;
+                    height: auto;
+                    width: 100%;
 
                     & .Pic-KMUTNB1 {
                         background-image: url("img/KMUTNB1.jpg");
-                        height: 100px;
-                        width: 280px;
+                        height: 90px;
+                        width: 220px;
                         border-radius: 10px;
-                        background-size: cover;
                         background-position: center;
-                        margin-top: 10px;
-                        margin-left: 15px;
-                        padding: 1rem -0.5rem;
+                        background-size: cover;
                     }
 
                     & .Pic-KMUTNB2 {
-                        font-family: monospace;
+                        font-family: cursive;
                         font-size: 0.75rem;
                         color: rgb(15, 12, 12);
                     }
@@ -191,8 +193,8 @@ nav {
 
             & .window2 {
                 height: 600px;
-                width: 430px;
-                background-color: #ffffff77;
+                width: 530px;
+                background-color: #ffffffb2;
                 border-radius: 20px;
                 display: flex;
                 flex-direction: column;
@@ -205,7 +207,7 @@ nav {
                     margin-top: 20px;
                     margin-left: 30px;
                     & h1{
-                        font-family: monospace;
+                        font-family: cursive;
                     }
 
 
@@ -217,7 +219,7 @@ nav {
                     justify-content: center;
                     column-gap: 30px;
                     margin-left: 0px;
-                    margin-top: 20px;
+                    margin-top: 50px;
                     & .Pic-gulf1 {
                         background-image: url("img/10.png");
                         height: 220px;
