@@ -73,6 +73,8 @@ nav {
         column-gap: 30px;
         row-gap: 30px;
         justify-content: center;
+        height: auto;
+        width: 100%;
         & .banner2-item1 {
             background-color: #08175a;
             height: 350px;
