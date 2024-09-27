@@ -203,6 +203,9 @@ nav {
 
                     & a {
                         color: #ffffff;
+                        & .hover-text:hover{
+                            color: #7a0808;
+                        }
                     }
                 }
 
@@ -215,6 +218,9 @@ nav {
 
                     & a {
                         color: #ffffff;
+                        & .hover-text:hover{
+                            color: #7a0808;
+                        } 
                     }
                 }
             }
@@ -286,6 +292,13 @@ nav {
             width: 400px;
             background-color: rgb(177, 46, 79);
             border-radius: 20px;
+            color: rgb(255, 255, 255);
+            font-family: monospace;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 50px;
         }
     }
 

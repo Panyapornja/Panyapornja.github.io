@@ -198,41 +198,19 @@ nav {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-
                 column-gap: 10px;
                 row-gap: 20px;
 
                 & .Work-experience {
-                    font-family: monospace;
-                    font-size: 1.5rem;
+                    font-size: 1rem;
                     margin-top: 20px;
-
-                }
-
-                & .Gulf {
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-
-                    & .Pic-gulf {
-                        background-image: url("img/gulf.png");
-                        height: 90px;
-                        width: 130px;
-                        border-radius: 10px;
-                        background-size: cover;
-                        background-position: center;
-                        margin-top: -10px;
-                        margin-left: -40px;
-                    }
-
-                    & .text-gulf {
+                    margin-left: 30px;
+                    & h1{
                         font-family: monospace;
-                        font-size: 1.3rem;
-                        margin-top: 20px;
-                        margin: 20px 20px;
                     }
-                }
 
+
+                }
                 & .workex {
                     display: flex;
                     flex-direction: row;
@@ -240,24 +218,15 @@ nav {
                     justify-content: center;
                     column-gap: 30px;
                     margin-left: 0px;
-
+                    margin-top: 20px;
                     & .Pic-gulf1 {
-                        background-image: url("img/gulf2.jpg");
-                        height: 150px;
-                        width: 150px;
+                        background-image: url("img/10.png");
+                        height: 220px;
+                        width: 180px;
                         border-radius: 10px;
                         background-size: cover;
                         background-position: center;
 
-                    }
-
-                    & .Pic-gulf2 {
-                        background-image: url("img/gulf3.jpg");
-                        height: 150px;
-                        width: 150px;
-                        border-radius: 10px;
-                        background-size: cover;
-                        background-position: center;
                     }
                 }
             }
