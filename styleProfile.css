@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 nav {
     display: flex;
     justify-content: center;
@@ -66,7 +65,7 @@ nav {
     background-image: url("https://www.ghibli.jp/gallery/chihiro007.jpg");
     background-position: center;
     background-size: cover;
-    padding:  3rem 15rem;
+    padding: 12rem 11.5rem;
 
     & .banner-Wrapper {
         display: flex;
@@ -77,6 +76,7 @@ nav {
         align-content: center;
         height: auto;
         width: 100%;
+
         & .window {
             display: flex;
             flex-wrap: wrap;
@@ -87,13 +87,18 @@ nav {
             height: auto;
             width: 100%;
             margin-top: 10px;
-        
+
             & .window1 {
                 height: 500px;
                 width: 430px;
-                background-color: #ffffffb2;
+                background-color: #ffffff77;
                 border-radius: 20px;
-        
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                column-gap: 10px;
+                row-gap: 20px;
+
                 & .Education {
                     font-family: monospace;
                     color: black;
@@ -104,7 +109,7 @@ nav {
                     display: flex;
                     font-size: 1.5rem
                 }
-        
+
                 & .BKW {
                     display: flex;
                     flex-direction: row;
@@ -112,7 +117,7 @@ nav {
                     margin-top: 16px;
                     justify-content: center;
                     align-items: center;
-        
+
                     & .Pic-BKW1 {
                         background-image: url("img/BKW1.jpg");
                         height: 100px;
@@ -123,16 +128,16 @@ nav {
                         margin-top: 10px;
                         margin-left: 15px;
                     }
-        
+
                     & .Pic-BKW2 {
                         font-family: monospace;
                         font-size: 0.8rem;
                         color: rgb(15, 12, 12);
-        
-        
+
+
                     }
                 }
-        
+
                 & .Thaiaus {
                     display: flex;
                     flex-direction: row;
@@ -140,7 +145,7 @@ nav {
                     margin-top: 20px;
                     justify-content: center;
                     align-items: center;
-        
+
                     & .Pic-Thaiaus1 {
                         background-image: url("img/THAI.png");
                         height: 100px;
@@ -151,14 +156,14 @@ nav {
                         margin-top: 10px;
                         margin-left: 15px;
                     }
-        
+
                     & .Pic-Thaiaus2 {
                         font-family: monospace;
                         font-size: 0.8rem;
                         color: rgb(15, 12, 12);
                     }
                 }
-        
+
                 & .KMUTNB {
                     display: flex;
                     flex-direction: row;
@@ -166,7 +171,7 @@ nav {
                     margin-top: 20px;
                     justify-content: center;
                     align-items: center;
-        
+
                     & .Pic-KMUTNB1 {
                         background-image: url("img/KMUTNB1.jpg");
                         height: 100px;
@@ -178,17 +183,17 @@ nav {
                         margin-left: 15px;
                         padding: 1rem -0.5rem;
                     }
-        
+
                     & .Pic-KMUTNB2 {
                         font-family: monospace;
                         font-size: 0.75rem;
                         color: rgb(15, 12, 12);
                     }
-        
+
                 }
-        
+
             }
-        
+
             & .window2 {
                 height: 500px;
                 width: 430px;
@@ -199,7 +204,7 @@ nav {
                 align-items: center;
                 column-gap: 10px;
                 row-gap: 20px;
-        
+
                 & .Work-experience {
                     font-size: 1rem;
                     margin-top: 20px;
@@ -207,8 +212,8 @@ nav {
                     & h1{
                         font-family: monospace;
                     }
-        
-        
+
+
                 }
                 & .workex {
                     display: flex;
@@ -225,16 +230,13 @@ nav {
                         border-radius: 10px;
                         background-size: cover;
                         background-position: center;
-        
+
                     }
                 }
             }
         }
-
     }
 }
-
-
 .motto {
     background-color: darkred;
     height: 50px;
