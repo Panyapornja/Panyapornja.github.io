@@ -77,18 +77,20 @@ nav {
         width: 100%;
         & .banner2-item1 {
             background-color: #08175a;
-            height: 350px;
-            width: 200px;
+            height: 500px;
+            width: 400px;
             padding: 1rem 4rem;
             border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
 
             & .rov {
-                width: 150px;
-                height: 150px;
+                width: 280px;
+                height: 320px;
                 background-size: cover;
                 border-radius: 15px;
-                padding: 0rem 0rem;
-                margin: 5rem -2.5rem;
+                margin-top: 70px;
                 background-position: center;
                 background-image: url("https://i.pinimg.com/564x/e9/c6/70/e9c67047adaf44cb10aed191762c66f1.jpg")
             }
@@ -96,18 +98,20 @@ nav {
 
         & .banner2-item2 {
             background-color: #9104ad;
-            height: 350px;
-            width: 200px;
-            border-radius: 20px;
+            height: 500px;
+            width: 400px;
             padding: 1rem 4rem;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
 
             & .stardew {
-                width: 150px;
-                height: 150px;
+                width: 280px;
+                height: 320px;
                 background-size: cover;
                 border-radius: 15px;
-                padding: 0rem 0rem;
-                margin: 5rem -2.5rem;
+                margin-top: 70px;
                 background-position: center;
                 background-image: url("https://i.pinimg.com/564x/51/e3/c9/51e3c96102b4d29466bdec901847ee65.jpg")
             }
@@ -116,18 +120,20 @@ nav {
 
         & .banner2-item3 {
             background-color: #6c39f8;
-            height: 350px;
-            width: 200px;
+            height: 500px;
+            width: 400px;
+            padding: 1rem 4rem;
             border-radius: 20px;
-            padding: 1rem 1.6rem;
+            display: flex;
+            justify-content: center;
+            align-content: center;
 
             & .raft {
-                width: 150px;
-                height: 150px;
+                width: 280px;
+                height: 320px;
                 background-size: cover;
                 border-radius: 15px;
-                padding: 0rem 0rem;
-                margin: 5rem -0.1rem;
+                margin-top: 70px;
                 background-position: center;
                 background-image: url("https://i.pinimg.com/564x/d9/03/b7/d903b74b129a613eedd46ac399c3fe99.jpg")
             }
@@ -135,18 +141,20 @@ nav {
 
         & .banner2-item4 {
             background-color: #86beff;
-            height: 350px;
-            width: 200px;
-            border-radius: 20px;
+            height: 500px;
+            width: 400px;
             padding: 1rem 4rem;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
 
             & .deatby {
-                width: 150px;
-                height: 150px;
+                width: 280px;
+                height: 320px;
                 background-size: cover;
                 border-radius: 15px;
-                padding: 0rem 0rem;
-                margin: 5rem -2.5rem;
+                margin-top: 70px;
                 background-position: center;
                 background-image: url("https://i.pinimg.com/564x/9d/c8/4c/9dc84c7cfde98e444f4d7e3345792e8e.jpg")
             }
