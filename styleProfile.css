@@ -89,7 +89,7 @@ nav {
             margin-top: 10px;
 
             & .window1 {
-                height: 500px;
+                height: 600px;
                 width: 430px;
                 background-color: #ffffffb2;
                 border-radius: 20px;
@@ -190,7 +190,7 @@ nav {
             }
 
             & .window2 {
-                height: 500px;
+                height: 600px;
                 width: 430px;
                 background-color: #ffffff77;
                 border-radius: 20px;
