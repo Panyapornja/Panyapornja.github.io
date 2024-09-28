@@ -67,100 +67,120 @@ nav {
     background-position: center;
     background-size: cover;
     padding: 12rem 11.5rem;
-    & .banner-Wrapper{
+
+    & .banner-Wrapper {
         display: flex;
         flex-wrap: wrap;
         column-gap: 30px;
         row-gap: 30px;
-        justify-content: center;
         height: auto;
         width: 100%;
-        & .banner2-item1 {
-            background-color: #08175a;
-            height: 500px;
-            width: 400px;
-            padding: 1rem 4rem;
-            border-radius: 20px;
+
+        & .ban2{
             display: flex;
+            flex-wrap: wrap;
+            column-gap: 30px;
+            row-gap: 30px;
             justify-content: center;
-            align-content: center;
+            height: auto;
+            width: 100%;
 
-            & .rov {
-                width: 280px;
-                height: 320px;
-                background-size: cover;
-                border-radius: 15px;
-                margin-top: 70px;
-                background-position: center;
-                background-image: url("https://i.pinimg.com/564x/e9/c6/70/e9c67047adaf44cb10aed191762c66f1.jpg")
-            }
-        }
+            & .banner2-item1 {
+                background-color: #08175a;
+                height: 500px;
+                width: 400px;
+                padding: 1rem 4rem;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
 
-        & .banner2-item2 {
-            background-color: #9104ad;
-            height: 500px;
-            width: 400px;
-            padding: 1rem 4rem;
-            border-radius: 20px;
-            display: flex;
-            justify-content: center;
-            align-content: center;
-
-            & .stardew {
-                width: 280px;
-                height: 320px;
-                background-size: cover;
-                border-radius: 15px;
-                margin-top: 70px;
-                background-position: center;
-                background-image: url("https://i.pinimg.com/564x/51/e3/c9/51e3c96102b4d29466bdec901847ee65.jpg")
+                & .rov {
+                    width: 280px;
+                    height: 320px;
+                    background-size: cover;
+                    border-radius: 15px;
+                    margin-top: 70px;
+                    background-position: center;
+                    background-image: url("https://i.pinimg.com/564x/e9/c6/70/e9c67047adaf44cb10aed191762c66f1.jpg")
+                }
             }
 
-        }
+            & .banner2-item2 {
+                background-color: #9104ad;
+                height: 500px;
+                width: 400px;
+                padding: 1rem 4rem;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
 
-        & .banner2-item3 {
-            background-color: #6c39f8;
-            height: 500px;
-            width: 400px;
-            padding: 1rem 4rem;
-            border-radius: 20px;
-            display: flex;
-            justify-content: center;
-            align-content: center;
+                & .stardew {
+                    width: 280px;
+                    height: 320px;
+                    background-size: cover;
+                    border-radius: 15px;
+                    margin-top: 70px;
+                    background-position: center;
+                    background-image: url("https://i.pinimg.com/564x/51/e3/c9/51e3c96102b4d29466bdec901847ee65.jpg")
+                }
 
-            & .raft {
-                width: 280px;
-                height: 320px;
-                background-size: cover;
-                border-radius: 15px;
-                margin-top: 70px;
-                background-position: center;
-                background-image: url("https://i.pinimg.com/564x/d9/03/b7/d903b74b129a613eedd46ac399c3fe99.jpg")
+            }
+
+            & .banner2-item3 {
+                background-color: #6c39f8;
+                height: 500px;
+                width: 400px;
+                padding: 1rem 4rem;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                & .raft {
+                    width: 280px;
+                    height: 320px;
+                    background-size: cover;
+                    border-radius: 15px;
+                    margin-top: 70px;
+                    background-position: center;
+                    background-image: url("https://i.pinimg.com/564x/d9/03/b7/d903b74b129a613eedd46ac399c3fe99.jpg")
+                }
+            }
+
+            & .banner2-item4 {
+                background-color: #86beff;
+                height: 500px;
+                width: 400px;
+                padding: 1rem 4rem;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                & .deatby {
+                    width: 280px;
+                    height: 320px;
+                    background-size: cover;
+                    border-radius: 15px;
+                    margin-top: 70px;
+                    background-position: center;
+                    background-image: url("https://i.pinimg.com/564x/9d/c8/4c/9dc84c7cfde98e444f4d7e3345792e8e.jpg")
+                }
             }
         }
-
-        & .banner2-item4 {
-            background-color: #86beff;
-            height: 500px;
-            width: 400px;
-            padding: 1rem 4rem;
-            border-radius: 20px;
-            display: flex;
-            justify-content: center;
-            align-content: center;
-
-            & .deatby {
-                width: 280px;
-                height: 320px;
+        & .home {
+            margin-top: 100px;
+            & .home1 {
+                width: 80px;
+                height: 80px;
+                background-image: url("img/40.png");
                 background-size: cover;
-                border-radius: 15px;
-                margin-top: 70px;
                 background-position: center;
-                background-image: url("https://i.pinimg.com/564x/9d/c8/4c/9dc84c7cfde98e444f4d7e3345792e8e.jpg")
+
             }
         }
-        
-  
     }
 }
 
@@ -174,6 +194,3 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
-
-

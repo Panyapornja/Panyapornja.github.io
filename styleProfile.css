@@ -226,6 +226,17 @@ nav {
                 }
             }
         }
+        & .home{
+            margin-top: 100px;
+            & .home1{
+                width: 80px;
+                height: 80px;
+                background-image: url("img/40.png");
+                background-size: cover;
+                background-position: center;
+                
+            }
+        }
     }
 }
 .motto {

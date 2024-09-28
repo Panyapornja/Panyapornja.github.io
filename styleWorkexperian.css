@@ -66,141 +66,167 @@ nav {
     background-image: url("https://www.ghibli.jp/gallery/chihiro007.jpg");
     background-position: center;
     background-size: cover;
-    padding:  3rem 15rem;
+    padding: 3rem 15rem;
 
     & .banner-Wrapper {
         display: flex;
         flex-direction: column;
         column-gap: 30px;
         row-gap: 30px;
-        justify-content: center;
-        align-content: center;
+        
         height: auto;
         width: 100%;
 
-        & .head{
-            font-size: 1;
+        & .ban {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.5rem;
-            color: #ffffff;
-            & h1{
-                background-color: black;
-                border-radius: 40px;
-                height: 80px;
-                width: 220px;
-                display: flex;
-                border: 5px solid white;
-                justify-content: center;
-                align-items: center;
-            }
-        }
-
-        & .window {
-            display: flex;
-            flex-wrap: wrap;
             column-gap: 30px;
             row-gap: 30px;
             justify-content: center;
-            margin-top: 20px;
+            align-content: center;
             height: auto;
             width: 100%;
-            margin-top: 10px;
-            & .window1 {
-                height: 300px;
-                width: 300px;
-                background-image: url("img/1.png");
-                background-position: center;
-                background-size: cover;
-                border-radius: 20px;
-                border: 5px solid rgb(255, 255, 255);
+
+
+            & .head {
+                font-size: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.5rem;
+                color: #ffffff;
+
+                & h1 {
+                    background-color: black;
+                    border-radius: 40px;
+                    height: 80px;
+                    width: 220px;
+                    display: flex;
+                    border: 5px solid white;
+                    justify-content: center;
+                    align-items: center;
+                }
             }
 
-            & .window2 {
-                height: 300px;
-                width: 300px;
-                background-image: url("img/2.png");
-                background-position: center;
-                background-size: cover;
-                border-radius: 20px;
-                border: 5px solid rgb(255, 255, 255);
-            }
+            & .window {
+                display: flex;
+                flex-wrap: wrap;
+                column-gap: 30px;
+                row-gap: 30px;
+                justify-content: center;
+                margin-top: 20px;
+                height: auto;
+                width: 100%;
+                margin-top: 10px;
 
-            & .window3 {
-                height: 300px;
-                width: 300px;
-                background-image: url("img/3.png");
-                background-position: center;
-                background-size: cover;
-                border-radius: 20px;
-                border: 5px solid rgb(255, 255, 255);
-            }
+                & .window1 {
+                    height: 300px;
+                    width: 300px;
+                    background-image: url("img/1.png");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+                    border: 5px solid rgb(255, 255, 255);
+                }
 
-            & .window4 {
-                height: 300px;
-                width: 300px;
-                background-image: url("img/4.png");
-                background-position: center;
-                background-size: cover;
-                border-radius: 20px;
-                border: 5px solid rgb(255, 255, 255);
-            }
+                & .window2 {
+                    height: 300px;
+                    width: 300px;
+                    background-image: url("img/2.png");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+                    border: 5px solid rgb(255, 255, 255);
+                }
 
-            & .window5 {
-                height: 300px;
-                width: 300px;
-                background-image: url("img/5.png");
-                background-position: center;
-                background-size: cover;
-                border-radius: 20px;
-                border: 5px solid rgb(255, 255, 255);
-            }
+                & .window3 {
+                    height: 300px;
+                    width: 300px;
+                    background-image: url("img/3.png");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+                    border: 5px solid rgb(255, 255, 255);
+                }
 
-            & .window6 {
-                height: 300px;
-                width: 300px;
-                background-image: url("img/6.png");
-                background-position: center;
-                background-size: cover;
-                border-radius: 20px;
-                border: 5px solid rgb(255, 255, 255);
-            }
+                & .window4 {
+                    height: 300px;
+                    width: 300px;
+                    background-image: url("img/4.png");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+                    border: 5px solid rgb(255, 255, 255);
+                }
 
-            & .window7 {
-                height: 300px;
-                width: 300px;
-                background-image: url("img/7.png");
-                background-position: center;
-                background-size: cover;
-                border-radius: 20px;
-                border: 5px solid rgb(255, 255, 255);
-            }
+                & .window5 {
+                    height: 300px;
+                    width: 300px;
+                    background-image: url("img/5.png");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+                    border: 5px solid rgb(255, 255, 255);
+                }
 
-            & .window8 {
-                height: 300px;
-                width: 300px;
-                background-image: url("img/8.png");
-                background-position: center;
-                background-size: cover;
-                border-radius: 20px;
-                border: 5px solid rgb(255, 255, 255);
-            }
+                & .window6 {
+                    height: 300px;
+                    width: 300px;
+                    background-image: url("img/6.png");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+                    border: 5px solid rgb(255, 255, 255);
+                }
 
-            & .window9 {
-                height: 300px;
-                width: 300px;
-                background-image: url("img/9.png");
-                background-position: center;
-                background-size: cover;
-                border-radius: 20px;
-                border: 5px solid rgb(255, 255, 255);
+                & .window7 {
+                    height: 300px;
+                    width: 300px;
+                    background-image: url("img/7.png");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+                    border: 5px solid rgb(255, 255, 255);
+                }
+
+                & .window8 {
+                    height: 300px;
+                    width: 300px;
+                    background-image: url("img/8.png");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+                    border: 5px solid rgb(255, 255, 255);
+                }
+
+                & .window9 {
+                    height: 300px;
+                    width: 300px;
+                    background-image: url("img/9.png");
+                    background-position: center;
+                    background-size: cover;
+                    border-radius: 20px;
+                    border: 5px solid rgb(255, 255, 255);
+                }
             }
         }
+        & .home {
+            margin-top: 100px;
 
+            & .home1 {
+                width: 80px;
+                height: 80px;
+                background-image: url("img/40.png");
+                background-size: cover;
+                background-position: center;
+
+            }
+        }
+        
     }
 }
+
 .motto {
     background-color: darkred;
     height: 50px;

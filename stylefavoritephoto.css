@@ -67,100 +67,124 @@ nav {
     background-position: center;
     background-size: cover;
     padding: 12rem 11.5rem;
-    & .banner-Wrapper{
+
+    & .banner-Wrapper {
         display: flex;
         flex-wrap: wrap;
         column-gap: 30px;
         row-gap: 30px;
-        justify-content: center;
         height: auto;
         width: 100%;
-        & .banner3-item1 {
-            background-color: #ffffff;
-            height: 500px;
-            width: 400px;
-            padding: 1rem 4rem;
-            border-radius: 20px;
-            display: flex;
-            justify-content: center;
-            align-content: center;
 
-            & .pic1 {
-                width: 280px;
-                height: 320px;
-                background-size: cover;
-                border-radius: 15px;
-                margin-top: 70px;
-                background-position: center;
-                background-image: url("/img/pic1.jpg")
+        & .ban1 {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 30px;
+            row-gap: 30px;
+            justify-content: center;
+            height: auto;
+            width: 100%;
+
+            & .banner3-item1 {
+                background-color: #ffffff;
+                height: 500px;
+                width: 400px;
+                padding: 1rem 4rem;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                & .pic1 {
+                    width: 280px;
+                    height: 320px;
+                    background-size: cover;
+                    border-radius: 15px;
+                    margin-top: 70px;
+                    background-position: center;
+                    background-image: url("/img/pic1.jpg")
+                }
+            }
+
+            & .banner3-item2 {
+                background-color: #ffffff;
+                height: 500px;
+                width: 400px;
+                padding: 1rem 4rem;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                & .pic2 {
+                    width: 280px;
+                    height: 320px;
+                    background-size: cover;
+                    border-radius: 15px;
+                    margin-top: 70px;
+                    background-position: center;
+                    background-image: url("/img/pic2.jpg")
+                }
+
+            }
+
+            & .banner3-item3 {
+                background-color: #ffffff;
+                height: 500px;
+                width: 400px;
+                padding: 1rem 4rem;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                & .pic3 {
+                    width: 280px;
+                    height: 320px;
+                    background-size: cover;
+                    border-radius: 15px;
+                    margin-top: 70px;
+                    background-position: center;
+                    background-image: url("/img/pic3.jpg")
+                }
+            }
+
+            & .banner3-item4 {
+                background-color: #ffffff;
+                height: 500px;
+                width: 400px;
+                padding: 1rem 4rem;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+
+                & .pic4 {
+                    width: 280px;
+                    height: 320px;
+                    background-size: cover;
+                    border-radius: 15px;
+                    margin-top: 70px;
+                    background-position: center;
+                    background-image: url("/img/pic44.jpg")
+                }
             }
         }
 
-        & .banner3-item2 {
-            background-color: #ffffff;
-            height: 500px;
-            width: 400px;
-            padding: 1rem 4rem;
-            border-radius: 20px;
-            display: flex;
-            justify-content: center;
-            align-content: center;
+        & .home {
+            margin-top: 100px;
 
-            & .pic2 {
-                width: 280px;
-                height: 320px;
+            & .home1 {
+                width: 80px;
+                height: 80px;
+                background-image: url("img/40.png");
                 background-size: cover;
-                border-radius: 15px;
-                margin-top: 70px;
                 background-position: center;
-                background-image: url("/img/pic2.jpg")
-            }
 
-        }
-
-        & .banner3-item3 {
-            background-color: #ffffff;
-            height: 500px;
-            width: 400px;
-            padding: 1rem 4rem;
-            border-radius: 20px;
-            display: flex;
-            justify-content: center;
-            align-content: center;
-
-            & .pic3 {
-                width: 280px;
-                height: 320px;
-                background-size: cover;
-                border-radius: 15px;
-                margin-top: 70px;
-                background-position: center;
-                background-image: url("/img/pic3.jpg")
             }
         }
 
-        & .banner3-item4 {
-            background-color: #ffffff;
-            height: 500px;
-            width: 400px;
-            padding: 1rem 4rem;
-            border-radius: 20px;
-            display: flex;
-            justify-content: center;
-            align-content: center;
 
-            & .pic4 {
-                width: 280px;
-                height: 320px;
-                background-size: cover;
-                border-radius: 15px;
-                margin-top: 70px;
-                background-position: center;
-                background-image: url("/img/pic44.jpg")
-            }
-        }
-
-        
     }
 }
 
@@ -174,6 +198,3 @@ nav {
     justify-content: center;
     align-items: center;
 }
-
-
-

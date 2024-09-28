@@ -10,5 +10,3 @@ function updateData() {
     });
   }
   setInterval(updateData, 1000); 
-  
-  // <script src="ตั้งชื่อไฟล์ว่าไรก็ใส่ตามนั้นไอบื้อ.js"></script> วิธีเรียกหา js
