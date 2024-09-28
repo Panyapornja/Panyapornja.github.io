@@ -100,10 +100,9 @@ nav {
                 
 
                 & .Education {
-                    font-family: cursive;
+    
                     color: black;
                     font-size: 1.5rem;
-                    
                     justify-content: center;
                     align-items: center;
                     display: flex;
@@ -130,7 +129,7 @@ nav {
                     }
 
                     & .Pic-BKW2 {
-                        font-family: cursive;
+                        
                         font-size: 0.8rem;
                         color: rgb(15, 12, 12);
 
@@ -156,7 +155,6 @@ nav {
                     }
 
                     & .Pic-Thaiaus2 {
-                        font-family: cursive;
                         font-size: 0.8rem;
                         color: rgb(15, 12, 12);
                     }
@@ -182,7 +180,7 @@ nav {
                     }
 
                     & .Pic-KMUTNB2 {
-                        font-family: cursive;
+
                         font-size: 0.75rem;
                         color: rgb(15, 12, 12);
                     }
