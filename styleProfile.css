@@ -204,10 +204,7 @@ nav {
                     font-size: 1rem;
                     margin-top: 20px;
                     margin-left: 30px;
-                    & h1{
-                        font-family: cursive;
-                    }
-
+                    font-family: cursive;
 
                 }
                 & .workex {
